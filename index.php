@@ -1000,7 +1000,7 @@ $purchases = $_SESSION['user']['purchases'];
             </div>
         <?php endif; ?>
     </div>
-
+<!-- adeel  -->
     <footer class="bg-dark text-white py-5">
         <div class="container">
             <div class="row">
