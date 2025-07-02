@@ -1006,7 +1006,7 @@ $purchases = $_SESSION['user']['purchases'];
             <div class="row">
                 <div class="col-md-4 mb-4">
                     <h5 class="mb-3"><i class="bi bi-book me-2"></i>BookWorm</h5>
-                    <p>Your one-stop destination for all your reading needs. Discover new worlds between the pages.</p>
+                    <p>Your onstop destination for all your reading needs. Discover new worlds between the pages.</p>
                     <div class="d-flex mt-4">
                         <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
                         <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
