@@ -398,7 +398,7 @@ $purchases = $_SESSION['user']['purchases'];
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary-gradient shadow-sm">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#"><i class="bi bi-book me-2"></i>BookWorm</a>
+            <a class="navbar-brand fw-bold" href="#"><i class="bi bi-book me-2"></i>BookW</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
