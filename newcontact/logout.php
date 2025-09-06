@@ -16,7 +16,7 @@ if (isset($_SESSION['user_id'])) {
     showLogoutConfirmation();
 } else {
     // User not logged in, redirect to login
-    header("Location: login.php");
+    header("Location: ../index.php");
     exit();
 }
 
