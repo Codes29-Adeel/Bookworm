@@ -6,7 +6,7 @@ session_start();
 if (isset($_POST['confirm_logout'])) {
     // Perform logout actions
     logoutUser();
-    header("Location: login.php?message=logout_success");
+    header("Location:../index.php");
     exit();
 }
 
