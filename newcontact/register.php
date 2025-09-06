@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   $sql = "INSERT INTO users (name, email, password) VALUES ('$name', '$email', '$password')";
 
-   header("Location: ../index.php");
+   header("Location: ../indexprivit.php");
     exit(); 
 }
 ?>

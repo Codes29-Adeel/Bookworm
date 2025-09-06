@@ -496,21 +496,21 @@ $purchases = $_SESSION['user']['purchases'];
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="image/1.avif" class="" alt="Slide 1">
+                    <img src="image/11.jpg" class="" alt="Slide 1">
                     <div class="carousel-caption bg-primary d-none d-md-block">
                         <h5>Beautiful Landscape</h5>
                         <p>Explore the wonders of nature with our first slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="image/2.avif" class="" alt="Slide 2">
+                    <img src="image/22.jpg" class="" alt="Slide 2">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>City Skyline</h5>
                         <p>Discover the beauty of modern architecture.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="https://via.placeholder.com/900x500?text=Slide+3" class="d-block w-100" alt="Slide 3">
+                    <img src="image/33.jpg" class="d-block w-100" alt="Slide 3">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Ocean View</h5>
                         <p>Relax with breathtaking ocean views.</p>
