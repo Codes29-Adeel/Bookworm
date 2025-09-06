@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // session_start();
         // $_SESSION['email'] = $email;
 
-        header("Location: ../index.php");
+        header("Location: ../indexprivit.php");  //this is 
         exit();
     } else {
         echo "Invalid login credentials.";
