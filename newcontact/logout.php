@@ -2,6 +2,10 @@
 // logout.php
 session_start();
 
+ //Alert this
+echo "<script>alert('This is a popup alert!');</script>";
+
+
 // Check if logout was confirmed
 if (isset($_POST['confirm_logout'])) {
     // Perform logout actions
@@ -19,9 +23,7 @@ if (isset($_SESSION['user_id'])) {
     header("Location: ../index.php");
     exit();
 }
- //Alert this
 
-echo "<script>alert('This is a popup alert!');</script>";
 
 
 
