@@ -100,6 +100,9 @@ function showLogoutConfirmation() {
             </form>
         </div>
     </body>
+    <script>
+        alert('You logout your account make sure you have your Email and Pasword')
+    </script>
     </html>
     <?php
     exit();
