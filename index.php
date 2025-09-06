@@ -476,7 +476,7 @@ $purchases = $_SESSION['user']['purchases'];
                             <li class="dropdown-header">Welcome, <?= $_SESSION['user']['name'] ?></li>
                             <li><a class="dropdown-item" href="newcontact/login.html"><i class="bi bi-person me-2"></i>My Profile</a></li>
                             <li><a class="dropdown-item" href="?view=purchases"><i class="bi bi-receipt me-2"></i>My Purchases</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-box-arrow-right me-2"></i>Logout</a></li>
+                            <!-- <li><a class="dropdown-item" href="#"><i class="bi bi-box-arrow-right me-2"></i>Logout</a></li> -->
                         </ul>
                     </div>
                 </div>

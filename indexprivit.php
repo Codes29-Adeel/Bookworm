@@ -398,7 +398,7 @@ $purchases = $_SESSION['user']['purchases'];
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary-gradient shadow-sm">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#"><i class="bi bi-book me-2"></i>BookW</a>
+            <a class="navbar-brand fw-bold" href="#"><i class="bi bi-book me-2"></i>BookWgit </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -474,9 +474,9 @@ $purchases = $_SESSION['user']['purchases'];
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li class="dropdown-header">Welcome, <?= $_SESSION['user']['name'] ?></li>
-                            <li><a class="dropdown-item" href="newcontact/login.html"><i class="bi bi-person me-2"></i>My Profile</a></li>
+                            <!-- <li><a class="dropdown-item" href="newcontact/login.html"><i class="bi bi-person me-2"></i>My Profile</a></li>  -->
                             <li><a class="dropdown-item" href="?view=purchases"><i class="bi bi-receipt me-2"></i>My Purchases</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="bi bi-box-arrow-right me-2"></i>Logout</a></li>
+                            <li><a class="dropdown-item" href="newcontact/logout.php"><i class="bi bi-box-arrow-right me-2"></i>Logout</a></li>
                         </ul>
                     </div>
                 </div>
