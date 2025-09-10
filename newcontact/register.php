@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("localhost", "root", "", "newcontact");
+$conn = new mysqli("localhost", "root", "","newcontact");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $name = $_POST["name"];
